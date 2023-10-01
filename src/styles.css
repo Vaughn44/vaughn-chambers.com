@@ -8,18 +8,6 @@
     --socialbrightness: 100%;
 }
 
-.linkedin{
-    filter: invert();
-}
-
-.email{
-    filter: invert();
-}
-
-.dribbble{
-    filter: invert();
-}
-
 /*Background: #323232*/
 /*Main Text: #EFD9B6*/
 /*Accent 1: #669ECB*/
@@ -740,20 +728,42 @@ footer{
 
 .socials{
     display: flex;
-    width: 166px;
+    width: 200px;
     justify-content: space-between;   
 }
 
-.linkedin:hover{
-    filter: invert(29%) sepia(95%) saturate(1214%) hue-rotate(175deg) brightness(91%) contrast(101%);
+
+/* Get Socials from iconmonstr.com, get filter from https://codepen.io/sosuke/pen/Pjoqqp */
+.linkedin{
+    filter: invert();
 }
 
-.email:hover{
+.email{
+    filter: invert();
+}
+
+.dribbble{
+    filter: invert();
+}
+
+.github{
+    filter: invert();
+}
+
+.linkedin:hover{
+    filter: invert(22%) sepia(25%) saturate(3402%) hue-rotate(186deg) brightness(96%) contrast(86%);
+}
+
+.github:hover{
     filter: invert(52%) sepia(48%) saturate(5049%) hue-rotate(234deg) brightness(80%) contrast(104%);
 }
 
 .dribbble:hover{
     filter: invert(52%) sepia(73%) saturate(3590%) hue-rotate(308deg) brightness(91%) contrast(92%);
+}
+
+.email:hover{
+    filter: invert(61%) sepia(93%) saturate(3258%) hue-rotate(192deg) brightness(106%) contrast(105%);
 }
 
 .LinkedIn{
@@ -764,8 +774,14 @@ footer{
     height: 40px;
 }
 
+/*
 .Email{
     height: 32px;
     margin-top: 4px;
     margin-box: 4px;
+}
+*/
+
+.Github{
+    height: 40px;
 }
